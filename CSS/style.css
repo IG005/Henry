@@ -1,0 +1,33 @@
+.asscon{
+    width: 22%;
+    height: 20%;
+    border: 2px solid white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    
+}
+.eye img{
+    width: 100%;
+}
+.text22{
+    padding: 10px;
+}
+.main5{
+    display: flex;
+}
+@media screen and (min-width:320px) and (max-width:425px){
+    .main5{
+        display: grid;
+    }
+    .asscon{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
